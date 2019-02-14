@@ -2,7 +2,7 @@
 > Este tutorial es resumen y una traducción de [The ultimate end-to-end tutorial to create and deploy a fully decentralized Dapp in ethereum](https://medium.com/ethereum-developers/the-ultimate-end-to-end-tutorial-to-create-and-deploy-a-fully-descentralized-dapp-in-ethereum-18f0cf6d7e0e "The ultimate end-to-end tutorial to create and deploy a fully decentralized Dapp in ethereum")
 ***
 Así es como queda:
-![Imagen 1](pictures/Img1.png "Apariencia Final")
+![Apariencia Final](IMAGES/Img1.gif)
 
 Este tutorial es la visión entera de crear un Smart Contract, conectarlo todo y tener una dapp final que incluya hosting descentralizado con IPFS.
 ***
@@ -403,12 +403,13 @@ li:active{
 }
 ```
 * Combinados deben verse así:  
-[Imagen 2](http "Imagen 2")  
+![Imagen 2](IMAGES/Img2.gif)  
 
 3. Despliega en Remix, y abre los detalles del contrato:  
-[Imagen 3](http "Imagen 3")  
+![Imagen 3](IMAGES/Img3.png)  
 	1. Copia la interfaz ABI:  
-[Imagen 4](http "Imagen 4") Doble click para copiar el texto completo  
+	![Imagen 4](IMAGES/Img4.png)  
+> Doble click para copiar el texto completo  
 4. Ahora ve a `index.js` y pega lo siguiente en el constructor:  
 ```js
 constructor(props){
